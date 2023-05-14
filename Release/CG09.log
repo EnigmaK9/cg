@@ -1,0 +1,36 @@
+﻿Compilación iniciada a las 31/10/2019 08:41:19 p.m..
+     1>Proyecto "C:\Users\Mario\documents\visual studio 2010\Projects\CG09\CG09\CG09.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Release\CG09.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ProyectoFinal2.cpp
+         ProyectoFinal2.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mario\documents\visual studio 2010\Projects\CG09\Release\CG09.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:lib cmodel/cmodel.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib glut32.lib /NODEFAULTLIB:libcd.lib /MANIFEST /ManifestFile:"Release\CG09.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Mario\documents\visual studio 2010\Projects\CG09\Release\CG09.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mario\documents\visual studio 2010\Projects\CG09\Release\CG09.lib" /MACHINE:X86 /SAFESEH:NO Release\Camera.obj
+         Release\figuras.obj
+         Release\ProyectoFinal2.obj
+         Release\texture.obj
+     1>cmodel.lib(GLRender.obj) : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/OPT:ICF'
+         Generando código
+         Generación de código finalizada
+     1>cmodel.lib(_3dsloader.obj) : warning LNK4099: no se encontró PDB 'vc70.pdb' con 'cmodel.lib(_3dsloader.obj)' o en 'C:\Users\Mario\documents\visual studio 2010\Projects\CG09\Release\vc70.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>cmodel.lib(CModel.obj) : warning LNK4099: no se encontró PDB 'vc70.pdb' con 'cmodel.lib(CModel.obj)' o en 'C:\Users\Mario\documents\visual studio 2010\Projects\CG09\Release\vc70.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>cmodel.lib(CObject.obj) : warning LNK4099: no se encontró PDB 'vc70.pdb' con 'cmodel.lib(CObject.obj)' o en 'C:\Users\Mario\documents\visual studio 2010\Projects\CG09\Release\vc70.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>cmodel.lib(GFILoader.obj) : warning LNK4099: no se encontró PDB 'vc70.pdb' con 'cmodel.lib(GFILoader.obj)' o en 'C:\Users\Mario\documents\visual studio 2010\Projects\CG09\Release\vc70.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>cmodel.lib(GLRender.obj) : warning LNK4099: no se encontró PDB 'vc70.pdb' con 'cmodel.lib(GLRender.obj)' o en 'C:\Users\Mario\documents\visual studio 2010\Projects\CG09\Release\vc70.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>cmodel.lib(HandleStream.obj) : warning LNK4099: no se encontró PDB 'vc70.pdb' con 'cmodel.lib(HandleStream.obj)' o en 'C:\Users\Mario\documents\visual studio 2010\Projects\CG09\Release\vc70.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>cmodel.lib(imageload.obj) : warning LNK4099: no se encontró PDB 'vc70.pdb' con 'cmodel.lib(imageload.obj)' o en 'C:\Users\Mario\documents\visual studio 2010\Projects\CG09\Release\vc70.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>cmodel.lib(MATRIX4X4.obj) : warning LNK4099: no se encontró PDB 'vc70.pdb' con 'cmodel.lib(MATRIX4X4.obj)' o en 'C:\Users\Mario\documents\visual studio 2010\Projects\CG09\Release\vc70.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>cmodel.lib(VECTOR3D.obj) : warning LNK4099: no se encontró PDB 'vc70.pdb' con 'cmodel.lib(VECTOR3D.obj)' o en 'C:\Users\Mario\documents\visual studio 2010\Projects\CG09\Release\vc70.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>cmodel.lib(VECTOR4D.obj) : warning LNK4099: no se encontró PDB 'vc70.pdb' con 'cmodel.lib(VECTOR4D.obj)' o en 'C:\Users\Mario\documents\visual studio 2010\Projects\CG09\Release\vc70.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+         CG09.vcxproj -> C:\Users\Mario\documents\visual studio 2010\Projects\CG09\Release\CG09.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Mario\documents\visual studio 2010\Projects\CG09\Release\CG09.exe;#1" /manifest Release\CG09.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release\CG09.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release\CG09.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\Mario\documents\visual studio 2010\Projects\CG09\CG09\CG09.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:04.98
